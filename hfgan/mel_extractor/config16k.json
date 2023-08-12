@@ -1,0 +1,32 @@
+{
+    "sr": 16000,
+
+    "wav_pad": true,
+    "wav_pad_mode": 1,
+    "wav_pad_val": 0.0,
+
+    "wav_rescale": false,
+    "wav_rescale_max": 0.95,
+
+    "pre_emph": true,
+    "pre_emph_cof": 0.85,
+
+    "n_fft": 2048,
+    "hop_size": 200,
+    "win_size": 800,
+
+    "mag_pow": 1.0,
+
+    "n_mels": 80,
+
+    "fmin": 0.0,
+    "fmax": 8000.0,
+
+    "spec_ref_db": 20,
+    "spec_min_db": -115,
+
+    "spec_norm": true,
+    "spec_max": 4.0,
+    "spec_sym": true,
+    "spec_clip": true
+}
